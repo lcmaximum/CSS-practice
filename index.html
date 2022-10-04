@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script defer src="script.js"></script>
+    <link href="style.css" rel="stylesheet"></link>
+    <title>Static Template</title>
+  </head>
+  <body>
+    <div id="myModal" class="modal">
+    
+      <!-- Modal content --> 
+      <div class="modal-content">
+        <div class="modal-header">
+          <span id="close">Hide Bank</span>
+    <div id="bank">
+      <h4>Your bank: <span id="user-money"></span></h4>
+    </div>
+    <div class="modal-body">
+      <p id="bet-msg-area">
+</p>          <button id="change-bet" style="display: none;">
+        change bet
+      </button>
+      <p><input
+        id="user-bet"
+        placeholder="Amount to bet"
+        autocomplete="off"
+        style="display: block;"
+      /><button id="set-bet" style="display: block;">Set Bet</button>
+      </p>
+    </div>
+    <div class="modal-footer">
+      <h3>Modal Footer</h3>
+    </div>
+  </div>
+
+</div>
+
+    </div>
+
+    <div id="confirmation">
+      <div id="confirmation-msg"></div>
+      <div id="outcome-msg"></div></div>
+ <div id='gameplay' style='visibility:hidden'>
+      <div id='score-board' style='display:none'>
+        <div id='dealer-score'>Dealer: <span id='dealer-points'>0</span></div>
+        <div id='user-score'>You: <span id='user-points'>0</span></div>
+      </div>
+  <div id="msg-space"></div>
+
+  <div id='play-area'>
+  <div id='dealer-space' class='player-div'>
+
+  </div>
+  
+  <div id='user-space' class='player-div'>
+  
+  </div></div>
+  
+  <div id='control-panel'>
+    <button id='deal-btn' class='play-btn'>Deal</button>
+    <button id='hit-btn' class='play-btn'>Hit</button>
+    <button id='stand-btn' class='play-btn'>Stand</button>
+    <button id='new-round-btn' class='play-btn'>New Round</button>
+    <button id='show-bank-btn' style="visibility:visible">Show Bank</button>
+  </div>
+    </div>
+
+
+</p>
+</div>
+  </body>
+</html>
